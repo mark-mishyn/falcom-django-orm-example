@@ -6,6 +6,7 @@
 
 ### Overview
 Code provides example how to use Django ORM + Falcon for rapid REST API development. 
+
 *Note: application supports Python 3 only.*
 
 ### Generic classes
@@ -32,7 +33,7 @@ Code provides example how to use Django ORM + Falcon for rapid REST API developm
 
 
 ### Development
-To run application for development use following command:
+To run application for development use the following command:
 
 `gunicorn --reload  --timeout 999 app:api`
 
