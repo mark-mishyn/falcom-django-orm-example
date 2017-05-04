@@ -1,7 +1,7 @@
 import falcon
 from django.core.exceptions import ValidationError
 
-from base_controllers.paginators import PagePaginator
+from base_controllers.paginators import LimitOffsetPaginator
 
 
 def raise_exception_if_data_invalid(schema, params, partial):
@@ -24,7 +24,7 @@ def update_object(obj, params):
 
 
 class ListMixin:
-    paginator_class = PagePaginator
+    paginator_class = LimitOffsetPaginator
     page_size = None
 
     def get_page_size(self, req):

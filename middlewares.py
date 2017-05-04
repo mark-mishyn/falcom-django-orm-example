@@ -29,7 +29,7 @@ class JSONResponseMiddleware:
                                    'UTF-8.')
 
 
-class TokenAuthentication:
+class TokenAuthenticationMiddleware:
 
     ERROR_PARAMS = {
         'title': 'Invalid authentication',

@@ -4,11 +4,11 @@ get_wsgi_application()
 
 import falcon
 
-from middlewares import TokenAuthentication
+from middlewares import TokenAuthenticationMiddleware
 from controllers import ExampleUserListResource, ExampleUserSingleResource
 
 
-api = falcon.API(middleware=TokenAuthentication())
+api = falcon.API(middleware=TokenAuthenticationMiddleware())
 
 # TODO check if there is a way to set these settings in more elegant way
 api.req_options = falcon.RequestOptions()

@@ -1,7 +1,7 @@
 from ujson import dumps
 
 
-class PagePaginator:
+class LimitOffsetPaginator:
 
     @staticmethod
     def get_paginated_response(queryset, page_size, req, schema):
