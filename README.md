@@ -1,6 +1,30 @@
 # Falcon + Django ORM Example
 
-Example of Python REST API built with Falcon and Django ORM
+**Example of REST API built with Falcon and Django ORM**
+
+
+
+### Overview
+Code provides example how to use Django ORM + Falcon for rapid REST API development. 
+*Note: application supports Python 3 only.*
+
+### Generic classes
+#### middlewares
+* JSONResponseMiddleware
+* TokenAuthenticationMiddleware
+
+#### controllers and mixins for CRUD operations
+* ListModelResource
+* SingleModelResource
+* ListMixin
+* CreateMixin
+* RetrieveMixin
+* DestroyMixin
+* UpdateMixin
+
+#### pagination
+* LimitOffsetPaginator
+
 
 ### Core technologies:
 * Falcon 1.1
@@ -8,8 +32,6 @@ Example of Python REST API built with Falcon and Django ORM
 
 
 ### Development
-This web application was built for Python 3 only.
-
 To run application for development use following command:
 
 `gunicorn --reload  --timeout 999 app:api`
