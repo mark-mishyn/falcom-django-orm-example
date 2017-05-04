@@ -30,6 +30,7 @@ Code provides example how to use Django ORM + Falcon for rapid REST API developm
 ### Core technologies:
 * Falcon 1.1
 * Django 1.11 (for ORM and admin panel)
+* marshmallow 2.13
 
 
 ### Development
