@@ -1,4 +1,4 @@
-# Falcon + Django ORM
+# Falcon + Django ORM Example
 
 Example of Python REST API built with Falcon and Django ORM
 
