@@ -9,7 +9,7 @@ This repo provides an example of how to use Django ORM + Falcon for rapid REST A
 * Django 3.2 (for ORM and (optional) admin panel)
 * marshmallow 3
 
-There are batch of handy generic classes in the repo. This classes can be used to quickly build APIs.
+There are batch of handy generic classes in the repo. These classes can be used to quickly build APIs.
 
 #### 1. CRUD controllers 
 * ListModelResource
