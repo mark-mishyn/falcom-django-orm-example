@@ -2,7 +2,7 @@
 
 **Example of a REST API that was built with Falcon and Django ORM**
 
-This repo provides an example of how to use Django ORM + Falcon for rapid REST API development. You can check very basic example of usage in **controller.py**
+This repo provides an example of how to use Django ORM + Falcon for rapid REST API development. You can check very basic example of usage in **controllers.py**
 
 #### Core technologies:
 * Falcon 3
